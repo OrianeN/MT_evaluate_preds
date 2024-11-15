@@ -2,7 +2,7 @@
 in cases where you don't have access to the model (or even for human translation),
 but only the predictions (+ references/sources)
 
-requires numpy package: `pip install numpy`
+first install 3rd-party packages: `pip install -r requirements.txt`
 
 Usage: `python3 evaluate_mt_preds.py -s source_file.txt -p pred_file.txt -r ref_file.txt`
 
